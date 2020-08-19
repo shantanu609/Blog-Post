@@ -32,9 +32,9 @@ const blogSchema =  new mongoose.Schema({
 const blogModel = mongoose.model('post', blogSchema);
 
 // insert 
-const sample = new blogModel({title : 'Sample', body : 'Sample Body'});
+// const sample = new blogModel({title : 'Sample', body : 'Sample Body'});
 
-sample.save();
+// sample.save();
 
 let array = [];
 
